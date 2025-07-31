@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vihar Vangala | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <img src="VIHAR_RESUME_PIC.png" alt="Vihar Vangala" class="profile-image">
+                <h1>VIHAR VANGALA</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li>
+                        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about" class="fade-in">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Vihar Vangala, a passionate Information Technology graduate from SNIST (2020-2024). With a strong foundation in web development, AI/ML, and cloud computing, I enjoy building innovative solutions that bridge technology and real-world applications.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Java</span> 
+                        <span class="skill-tag">Python</span> 
+                        <span class="skill-tag">JavaScript</span> 
+                        <span class="skill-tag">SQL</span> 
+                        <span class="skill-tag">React</span> 
+                        <span class="skill-tag">Flask</span> 
+                        <span class="skill-tag">GitHub</span> 
+                        <span class="skill-tag">MySQL Workbench</span> 
+                        <span class="skill-tag">Power BI</span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="fade-in">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <div class="project-image"></div>
+                    <h3>Deeplens:Image captioning and hashtag generator</h3>
+                    <p>Developed an AI system using deep learning for generating image captions and hashtags, enhancing visual
+                        content analysis with Restnet-50, context-aware descriptions.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image"></div>
+                    <h3>Cancer Incidence rates using ML-Machine Learning </h3>
+                    <p>Utilized Machine Learning to project cancer rates, identifying trends and potential risk factors for
+                        early intervention.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="fade-in">
+        <div class="section-content">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+            <p id="response-message"></p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Vihar Vangala. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
